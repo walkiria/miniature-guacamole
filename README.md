@@ -1,5 +1,5 @@
 # Arquitetura Web - Programação Orientada a Objetos
-
+* Disponibilização dos códigos utilizados em aula
 * Submissão dos trabalhos finais dos alunos.
 
 
