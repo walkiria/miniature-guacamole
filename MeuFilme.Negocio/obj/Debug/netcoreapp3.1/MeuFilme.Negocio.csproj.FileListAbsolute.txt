@@ -1,0 +1,16 @@
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Negocio.deps.json
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Negocio.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Negocio.pdb
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Interface.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Transporte.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Util.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Interface.pdb
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Transporte.pdb
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\bin\Debug\netcoreapp3.1\MeuFilme.Util.pdb
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.csprojAssemblyReference.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.csproj.CoreCompileInputs.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.AssemblyInfoInputs.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.AssemblyInfo.cs
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.csproj.CopyComplete
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Negocio\obj\Debug\netcoreapp3.1\MeuFilme.Negocio.pdb

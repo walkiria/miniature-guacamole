@@ -1,0 +1,9 @@
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\bin\Release\netcoreapp3.1\MeuFilme.Transporte.deps.json
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\bin\Release\netcoreapp3.1\MeuFilme.Transporte.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\bin\Release\netcoreapp3.1\MeuFilme.Transporte.pdb
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.csprojAssemblyReference.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.csproj.CoreCompileInputs.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.AssemblyInfoInputs.cache
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.AssemblyInfo.cs
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.dll
+D:\Odebrecht\Fontes\Pessoal\MeuFilme\MeuFilme.Transporte\obj\Release\netcoreapp3.1\MeuFilme.Transporte.pdb

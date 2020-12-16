@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme\\MeuFilme.csproj": {}
+  },
+  "projects": {
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\MeuFilme.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\MeuFilme.Interface.csproj",
+        "projectName": "MeuFilme.Interface",
+        "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\MeuFilme.Interface.csproj",
+        "packagesPath": "C:\\Users\\marceloraposo\\.nuget\\packages\\",
+        "outputPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marceloraposo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\MeuFilme.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\MeuFilme.Negocio.csproj",
+        "projectName": "MeuFilme.Negocio",
+        "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\MeuFilme.Negocio.csproj",
+        "packagesPath": "C:\\Users\\marceloraposo\\.nuget\\packages\\",
+        "outputPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marceloraposo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\MeuFilme.Interface.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Interface\\MeuFilme.Interface.csproj"
+              },
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj"
+              },
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\MeuFilme.Util.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\MeuFilme.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "TMDbLib": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj",
+        "projectName": "MeuFilme.Transporte",
+        "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj",
+        "packagesPath": "C:\\Users\\marceloraposo\\.nuget\\packages\\",
+        "outputPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marceloraposo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\MeuFilme.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\MeuFilme.Util.csproj",
+        "projectName": "MeuFilme.Util",
+        "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\MeuFilme.Util.csproj",
+        "packagesPath": "C:\\Users\\marceloraposo\\.nuget\\packages\\",
+        "outputPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marceloraposo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme\\MeuFilme.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme\\MeuFilme.csproj",
+        "projectName": "MeuFilme",
+        "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme\\MeuFilme.csproj",
+        "packagesPath": "C:\\Users\\marceloraposo\\.nuget\\packages\\",
+        "outputPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marceloraposo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\MeuFilme.Negocio.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Negocio\\MeuFilme.Negocio.csproj"
+              },
+              "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj": {
+                "projectPath": "D:\\Odebrecht\\Fontes\\Pessoal\\MeuFilme\\MeuFilme.Transporte\\MeuFilme.Transporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
