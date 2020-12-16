@@ -1,0 +1,58 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/Filme/PesquisarFilme/{nomeDoFilme}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "meufilme20201204104848.azurewebsites.net"
+        }
+      ],
+      "UpstreamPathTemplate": "/filme/p/{nomeDoFilme}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "MeuFilme"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/filme/ObterFilme/{filmeId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "meufilme20201204104848.azurewebsites.net"
+        }
+      ],
+      "UpstreamPathTemplate": "/filme/o/{filmeId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "MeuFilme"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/credito/ObterCredito/{creditoId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "meufilme20201204104848.azurewebsites.net"
+        }
+      ],
+      "UpstreamPathTemplate": "/credito/o/{creditoId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "MeuFilme"
+    }
+
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "MeuFilme",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "MeuFilme",
+          "Version": "v1",
+          "Url": "https://meufilme20201204104848.azurewebsites.net/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://meufilmegateway20201204104342.azurewebsites.net",
+    "RequestIdKey": "OcRequestId"
+  }
+}
